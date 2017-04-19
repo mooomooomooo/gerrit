@@ -1,0 +1,29 @@
+h1{
+  color: white;
+}
+h2{
+  color: red;
+}
+
+.animal-header {
+  color: red;
+  cursor:pointer;
+}
+p{
+  color: red;
+}
+body {
+  background-image: url(../WebstormProjects/portfolio2/images/sandoval.jpg);
+
+}
+
+#betta-header:hover {
+  cursor:pointer;
+}
+
+ol{
+  color: red;
+  display: none;
+  font-size: 20px;
+  background-color: #fff;
+}
