@@ -1,5 +1,5 @@
 h1{
-  color: white;
+  color: red;
 }
 h2{
   color: red;
@@ -13,8 +13,7 @@ p{
   color: red;
 }
 body {
-  background-image: url(../WebstormProjects/portfolio2/images/sandoval.jpg);
-
+  background-image: url(http://wallpapercave.com/wp/gbhC37v.jpg);
 }
 
 #betta-header:hover {

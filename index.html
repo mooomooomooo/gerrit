@@ -4,23 +4,42 @@
 <head>
   <link rel="stylesheet" href="test.css" type="text/css"></link>
   <script src="test.js"></script>
+<title>animal facts</title>
 </head>
 
 <body>
   <p>Thank adam for making this whole thing possible and check his website out at <a target="_blank" href="https://adamcthompson.com">adamcthompson.com</a></p>
+
   <h1>Animal Facts!</h1>
-  <h2 class="animal-header" onclick="toggleCamelDisplay()">Bactrian Camel</h2>
-  <ol id="camel-facts">
+
+  <h2>A</h2>
+
+  <h3 class="animal-header" onclick="toggleDisplay('Aardvark-facts')">Aardvark</h3>
+<ol id="Aardvark-facts" style="display:none;">
+  <div class="Aardvark">
+    <li>Their closest living relative is the elephant.</li>
+    <li>The average life span is 23 years.</li>
+    <li>They weigh 117-181 lbs.</li>
+    <li>Aardvarks can eat about 50,000 ants and termites.</li>
+    <li>When they abandond there home, there predators live in it.</li>
+</ol>
+</div>
+
+  <h2>B</h2>
+
+  <h3 class="animal-header" onclick="toggleDisplay('camel-facts')">Bactrian Camel</h3>
+  <ol id="camel-facts" style="display:none;">
+    <div class="camel">
     <li>Camels chew in a figure 8 moition.</li>
     <li>When they feel threatened camels spit.</li>
     <li>They can go six months without eating.</li>
     <li>They can drink up to 5 gallons in one sitting.</li>
     <li>Bactrian Camels only have one hump.</li>
   </ol>
-
+</div>
   <div id="betta">
-    <h2 class="animal-header" onclick="toggleDisplay()">Betta</h2>
-    <ol id="betta-facts">
+    <h3 class="animal-header" onclick="toggleDisplay('betta-facts')">Betta</h3>
+    <ol id="betta-facts" style="display:none;">
       <li>Every betta has a different tail shape.</li>
       <li>Bettas are extremely territorial.</li>
       <li>They live in tropical waters.</li>
@@ -28,14 +47,36 @@
       <li>If two bettas fight it usually leads to serious injury but it can sometimes lead to death.</li>
     </ol>
   </div>
+  <h2>E</h2>
 
-  <h2 class="animal-header" onclick="toggleKangarooDisplay()">Kangaroos</h2>
-  <ol id="kangaroo-facts">
+  <h3 class="animal-header" onclick="toggleDisplay('elephant-facts')">elephant</h3>
+  <ol id="elephant-facts" style="display:none;">
+    <li>Elephants can live for up to 70 years.</li>
+    <li>They eat about 16 hours each day.</li>
+    <li>They have about 100,000 different muscles in there trunk.</li>
+    <li>A bull elephants ear weighs over 100 pounds.</li>
+    <li>Elephants have no sweat glands.</li>
+  </ol>
+  <h2>K<h2>
+
+  <h3 class="animal-header" onclick="toggleDisplay('kangaroo-facts')">Kangaroos</h3>
+  <ol id="kangaroo-facts" style="display:none;">
     <li>Male Kangaroos fight over the females by boxing eachother out.</li>
     <li>They watch there baby kangaroos for only about 7 months.</li>
     <li>Baby kangaroos are called joeys.</li>
     <li>They are mammals</li>
     <li>They are marsupials</li>
+  </ol>
+
+<h2>S</h2>
+
+<h3 class="animal-header" onclick="toggleDisplay('crocodile-facts')">Saltwater crocodile<h3>
+  <ol id="crocodile-facts" style="display:none;">
+    <li>It is the largest living reptile.</li>
+    <li>The average weight is 1,000 pounds.</li>
+    <li>The average length is 17 ft.</li>
+    <li>Most live over 65 years.</li>
+    <li>They eat almost anything in there territory.</li>
   </ol>
 
   <body>
